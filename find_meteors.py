@@ -2,6 +2,16 @@ import math
 import requests
 
 def calc_dist(lat1, lon1, lat2, lon2):
+
+    '''
+    (num,num,num,num)-> num
+
+    returns the distance in miles between two coordinates
+    >>>calc_dist(29.424122, -98.493628,)
+
+
+
+    '''
     lat1 = math.radians(lat1)
     lon1 = math.radians(lon1)
     lat2 = math.radians(lat2)
